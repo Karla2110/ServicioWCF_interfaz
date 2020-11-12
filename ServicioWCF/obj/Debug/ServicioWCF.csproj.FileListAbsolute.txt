@@ -1,0 +1,7 @@
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ServicioWCF\bin\ServicioWCF.dll.config
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ServicioWCF\bin\ServicioWCF.dll
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ServicioWCF\bin\ServicioWCF.pdb
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ServicioWCF\obj\Debug\ServicioWCF.csprojAssemblyReference.cache
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ServicioWCF\obj\Debug\ServicioWCF.csproj.CoreCompileInputs.cache
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ServicioWCF\obj\Debug\ServicioWCF.dll
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ServicioWCF\obj\Debug\ServicioWCF.pdb
