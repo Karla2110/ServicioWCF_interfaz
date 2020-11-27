@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:56689/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ServicioWCF" />
+  <xs:import schemaLocation="http://localhost:56689/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:element name="ObtenerAlumno">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="codigo" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerAlumnoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ServicioWCF" minOccurs="0" name="ObtenerAlumnoResult" nillable="true" type="q1:Alumno" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumeroAlumnos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="carrera" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumeroAlumnosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ServicioWCF" minOccurs="0" name="NumeroAlumnosResult" nillable="true" type="q2:Semestre" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerHorario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="turno" type="q3:char" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerHorarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ServicioWCF" minOccurs="0" name="ObtenerHorarioResult" nillable="true" type="q4:Turno" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BasicCalculadora">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="numero1" type="xs:decimal" />
+        <xs:element minOccurs="0" name="numero2" type="xs:decimal" />
+        <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="operacion" type="q5:char" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BasicCalculadoraResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ServicioWCF" minOccurs="0" name="BasicCalculadoraResult" nillable="true" type="q6:Calculadora" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NivelAcademico">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="edad" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NivelAcademicoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ServicioWCF" minOccurs="0" name="NivelAcademicoResult" nillable="true" type="q7:Educacion" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

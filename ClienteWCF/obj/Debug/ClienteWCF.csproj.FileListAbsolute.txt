@@ -1,0 +1,10 @@
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\bin\Debug\ClienteWCF.exe.config
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\bin\Debug\ClienteWCF.exe
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\bin\Debug\ClienteWCF.pdb
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\obj\Debug\ClienteWCF.csprojAssemblyReference.cache
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\obj\Debug\ClienteWCF.Form1.resources
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\obj\Debug\ClienteWCF.csproj.GenerateResource.cache
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\obj\Debug\ClienteWCF.csproj.CoreCompileInputs.cache
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\obj\Debug\ClienteWCF.exe
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\obj\Debug\ClienteWCF.pdb
+C:\Users\HP Probook 440\source\repos\ServicioWCF\ClienteWCF\obj\Debug\ClienteWCF.Properties.Resources.resources

@@ -132,8 +132,8 @@ namespace ServicioWCF
             {
                 return new Educacion() { Edad = edad, NivelAcadem = "Preparatotia", AñosRestantes = "9 a 7 años" };
             }
-            if (edad >= 19 && edad <= 23)
-            {
+            if (edad >= 19 && edad <= 23)  
+            {   
                 return new Educacion() { Edad = edad, NivelAcadem = "Universidad", AñosRestantes = "6 a 2 años" };
             }
             else
